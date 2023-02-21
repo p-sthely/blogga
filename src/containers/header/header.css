@@ -1,0 +1,24 @@
+.header {
+    height: 475px;
+    margin: var(--container-lg);
+    padding: 40px 80px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: var(--container-md);
+}
+
+.header__content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
