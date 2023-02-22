@@ -7,9 +7,9 @@ const App = () => {
     return (
         <div className='App'>
             <Header />
-            <PostsList />
-            <PostsList />
-            <PostsList />
+            <PostsList category='Design Tools' />
+            <PostsList category='Weekly Updates' />
+            <PostsList category='Tutorials' />
             <Cta />
             <Footer />
         </div>

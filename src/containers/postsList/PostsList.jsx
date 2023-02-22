@@ -3,14 +3,10 @@ import './postsList.css'
 
 import PostsListItem from '../../components/postsListItem/PostsListItem'
 
-const Title = () => (
-    <h2 className='postsList__title'>Design Tools</h2>
-)
-
-const PostsList = () => {
+const PostsList = ( { category } ) => {
     return (
         <div className='postsList'>
-            <Title />
+            <h2 className='postsList__title'>{ category }</h2>
             <PostsListItem />
         </div>
     )
