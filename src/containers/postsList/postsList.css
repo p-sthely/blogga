@@ -1,10 +1,11 @@
 .postsList {
+    display: flex;
+    flex-direction: column;
     margin: var(--container-md);
-    margin-top: 100px;
-    padding-bottom: 40px;
 }
 
 .postsList__title {
+    margin-bottom: 60px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;

@@ -1,5 +1,6 @@
 .postsListItem {
     display: flex;
+    margin-bottom: 81px;
 }
 
 .postsListItem__meta {
