@@ -4,7 +4,8 @@
 }
 
 .navbar__brand {
-    margin: 0;
+    font-family: var(--font-family);
+    margin: auto 0 auto 0;
     color: #fff;
 }
 
