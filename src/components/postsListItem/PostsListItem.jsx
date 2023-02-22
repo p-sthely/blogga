@@ -2,14 +2,14 @@ import React from 'react'
 import './postsListItem.css'
 
 const Meta = () => (
-    <div className='postsListItem__meta'>
-        <div className='postsListItem__meta__category'>
-            Design Tools
-        </div>
-        <div className='postsListItem__meta__date'>
-            August 13, 2021
-        </div>
+<div className='postsListItem__meta'>
+    <div className='postsListItem__meta__category'>
+        Design Tools
     </div>
+    <div className='postsListItem__meta__date'>
+        August 13, 2021
+    </div>
+</div>
 )
 
 const Title = () => (
@@ -22,19 +22,22 @@ const Summary = () => (
     </p>
 )
 
-const Thumbnail = () => (
-    <div>Thumbnail</div>
-)
-
-const PostsListItem = () => {
+const PostsListItem = ( { category, thumbnail } ) => {
     return (
         <div className='postsListItem'>
             <div>
-                <Meta />
+                <div className='postsListItem__meta'>
+                    <div className='postsListItem__meta__category'>
+                        { category }
+                    </div>
+                    <div className='postsListItem__meta__date'>
+                        August 13, 2021
+                    </div>
+                </div>
                 <Title />
                 <Summary />
             </div>
-            <Thumbnail />
+            <img className="postsListItem__thumbnail" src={ thumbnail } alt='thumbnail' />
         </div>
     )
 }

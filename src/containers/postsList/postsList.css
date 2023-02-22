@@ -1,5 +1,7 @@
 .postsList {
     margin: var(--container-md);
+    margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .postsList__title {
