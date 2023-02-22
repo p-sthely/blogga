@@ -1,5 +1,6 @@
 .postsListItem {
     display: flex;
+    gap: 60px;
     margin-bottom: 81px;
 }
 
