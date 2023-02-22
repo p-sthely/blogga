@@ -1,0 +1,11 @@
+.postsList {
+    margin: var(--container-md);
+}
+
+.postsList__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-primary);
+}

@@ -1,8 +1,10 @@
 import React from 'react'
 import './navbar.css'
 
+import brandLogo from '../../assets/brand.png'
+
 const Brand = () => (
-    <h2 className='navbar__brand'>BLOGGA</h2>
+    <img className='navbar__brand' src={brandLogo} alt='blogga' />
 )
 
 const NavLinks = () => (

@@ -3,7 +3,8 @@
 :root {
     --font-family: Graphik;
     --color-primary: #232E52;
+    --color-secondary: #EBF2FE;
 
     --container-lg: 30px 30px;
-    --container-md: 0 145px;
+    --container-md: 0 255px;
 }
